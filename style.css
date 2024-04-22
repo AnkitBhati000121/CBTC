@@ -1,0 +1,77 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	
+}   /*styling of nav header*/
+#nav{
+	display:flex;
+	align-items: justify all;
+    font-size: 20px;
+	width: 100%;
+	height:30px;
+	position: sticky;
+	margin: 0;
+	border: 2px solid black;
+	display: inline-flex;
+}
+a:hover{
+	color: red;
+}
+.information{
+	display: flex;
+	text-align:justify-all;
+	
+	margin-right: 100px;
+}
+div{
+	margin-left:85px;
+	display: flex;
+	align-items: justify all;
+}/*styling is completed*/
+/* styling of image */
+#imagebox {
+	display: flex;
+	float: right;
+	margin: 0px;
+	width: 100%;
+	height: 500px;
+	position: sticky;
+	background-image: url("PDKI.jpg");
+	background-size: cover;
+}
+#name{ font: 80px bolder;
+	   color: darkred;
+	   margin-right:30%;
+	   align-items: center;
+	}
+	.information{
+		font-size:20px;
+		margin-left:200px;
+		color: yellowgreen;
+	}
+	/*styling of image completed*/
+	#welcome{
+		font-size:20px;
+		font-family: cursive;
+		font-weight: bolder;
+		color: darkblue;
+		margin-top: 20px;
+		display: flex;
+		float:left;
+		position: sticky;
+		text-align: justify-all;
+		margin-left: 0px;
+	}
+	#list{
+		margin-top:40px;
+		font-size:30px;
+		font-weight: bold;
+		font-family: fantasy;
+		padding-left: 40px;
+		line-break: 20px;
+		display: inline-flex;
+		text-align: justify-all;
+	} ul{
+		padding-top: 20px;
+	}

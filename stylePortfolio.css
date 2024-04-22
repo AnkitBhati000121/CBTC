@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    /**border: 2px solid black;**/
+
+}  /**------header start**/
+.Resume{
+    width: 100%;
+    height: 150px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:column;
+    padding-top: 20px;
+    border: none;
+    
+
+}
+#intro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#info{
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}/** header is completed**/
+.box1{
+    width: 100%;
+    height: 150px;
+    
+    
+}
+img{
+    width:200px ;
+    height:200px;
+    object-fit: cover;
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left:42%;
+    
+
+}
+#profile{
+    font-size: bolder;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    /**background-color: yellow;**/
+    padding-top: 8px;
+    font-size: 2rem;
+    font-weight: bolder;
+}/**section 1 start**/
+.sec1{
+    padding-left:60px;
+}
+#workexp{
+    width: 100%;
+   /** border: 2px solid black;
+    background-color: blue;**/
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}  
+hr
+{  width: 100%; 
+  height: 0px;
+ border:2px solid black;
+}
+/**section 1 finished**/
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    margin-top:10px;
+    /**padding-left: 46px;**/
+    
+} .sec3{
+    width: 100%;
+    height: 200px;
+    margin-top:60px;
+    display: flex;
+   /** border: 2px solid red;**/
+    justify-content: space-evenly;
+} 
+/**All section are completed**/
+.footer{
+    width: 100%;
+    height: 50px;
+    border: 4px solid red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:2rem;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: none;
+
+}
+body{
+    width: 90%;
+    border: 4px ridge red;
+    margin-left: 60px;
+}
